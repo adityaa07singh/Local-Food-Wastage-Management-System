@@ -4,8 +4,7 @@ import pandas as pd
 import plotly.express as px
 from database import engine
 
-if not os.path.exists("food_wastage.db"):
-    import setup_database
+import setup_database
 
 # Page Configuration
 st.set_page_config(
